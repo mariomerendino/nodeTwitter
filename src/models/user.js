@@ -8,7 +8,7 @@ export default (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      this.hasMany(models.Tweet);
+      this.hasMany(models.Tweet, { foreignKey: "userId" });
     }
   }
   User.init(
