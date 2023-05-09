@@ -1,6 +1,6 @@
 # nodeTwitter
 
-Toying with Node backends. 
+Toying with Node backends, by create a "twitter clone"
 
 - Nodemon (for hot reloading)
 - Sequelize (ORM)
